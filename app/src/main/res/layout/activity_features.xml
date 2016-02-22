@@ -2,25 +2,55 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center">
+    android:gravity="center"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Select 3 features you most interested in"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        />
     <RadioGroup
         android:layout_width="wrap_content"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        >
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Exercise"/>
+            android:text="Exercise"
+            android:textSize="14dp"
+            android:textColor="#767677"
+            android:buttonTint="#767677"
+            />
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="LifeStyle"/>
+            android:text="LifeStyle"
+            android:textSize="14dp"
+            android:textColor="#767677"
+            android:buttonTint="#767677"
+            />
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hobby"/>
+            android:text="Hobby"
+            android:textSize="14dp"
+            android:textColor="#767677"
+            android:buttonTint="#767677"
+            />
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Place"/>
+            android:text="Place"
+            android:textSize="14dp"
+            android:textColor="#767677"
+            android:buttonTint="#767677"
+            />
     </RadioGroup>
 </LinearLayout>

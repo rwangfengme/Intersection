@@ -2,20 +2,24 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center">
+    android:gravity="center"
+    android:background="@color/white">
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="110dp"
         android:layout_height="wrap_content"
         android:text="features"
-        android:id="@+id/button_features"/>
+        android:id="@+id/button_features"
+        android:textSize="14dp"/>
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="110dp"
         android:layout_height="wrap_content"
-        android:text="preferences"
-        android:id="@+id/button_preferences"/>
+        android:text="preference"
+        android:id="@+id/button_preferences"
+        android:textSize="14dp"/>
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="110dp"
         android:layout_height="wrap_content"
         android:text="Like Or Not"
-        android:id="@+id/button_dis_like"/>
+        android:id="@+id/button_dis_like"
+        android:textSize="14dp"/>
 </LinearLayout>
