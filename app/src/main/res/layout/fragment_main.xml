@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFragment"
+    tools:deviceIds="wear">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text_template1"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:text="You have matched with"
+            app:layout_box="all"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:textSize="16dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/number_of_person"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="85"
+            app:layout_box="all"
+            android:gravity="right|bottom"
+            android:layout_below="@+id/text_template1"
+            android:layout_marginTop="80dp"
+            android:layout_alignParentTop="true"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/prs"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="prs"
+            app:layout_box="all"
+            android:gravity="left|bottom"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/number_of_person"
+            android:layout_marginTop="75dp"
+            android:textSize="16dp"/>
+
+        <Switch
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Pairing Mode"
+            android:id="@+id/mode_switch"
+            android:layout_below="@+id/number_of_person"
+            android:layout_marginTop="0dp"
+            android:layout_centerHorizontal="true"
+
+            android:switchMinWidth="60dp"
+            android:checked="true"
+            android:textOff="off"
+            android:textOn="on"
+            android:textColor="#767677"
+            android:textSize="16dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="↓  slide down to grade  ↓"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:layout_below="@+id/mode_switch"
+            android:layout_alignParentStart="true"
+            android:textSize="16dp"/>
+
+    </RelativeLayout>
+
+</android.support.wearable.view.BoxInsetLayout>
