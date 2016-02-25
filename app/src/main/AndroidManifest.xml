@@ -27,7 +27,10 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".bindFBActivity"></activity>
+        <activity android:name=".BindFBActivity"></activity>
+        <activity android:name=".FeaturesActivity"></activity>
+        <activity android:name=".PreferencesActivity"></activity>
+        <activity android:name=".LikeOrNotActivity"></activity>
     </application>
 
 </manifest>

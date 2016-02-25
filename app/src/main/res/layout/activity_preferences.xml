@@ -59,5 +59,6 @@
         android:layout_marginRight="20dp"
         android:layout_below="@+id/textView2"
         android:backgroundTint="#035997"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:id="@+id/button_preferences_continue"/>
 </RelativeLayout>

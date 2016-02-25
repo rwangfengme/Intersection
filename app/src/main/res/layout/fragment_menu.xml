@@ -20,6 +20,6 @@
         android:layout_width="110dp"
         android:layout_height="wrap_content"
         android:text="Like Or Not"
-        android:id="@+id/button_dis_like"
+        android:id="@+id/button_likeornot"
         android:textSize="14dp"/>
 </LinearLayout>
